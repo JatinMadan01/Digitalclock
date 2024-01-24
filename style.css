@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://memorableindia.com/blog/wp-content/uploads/2019/05/ladakh-night-768x512.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+.main_container{
+    height:30%;
+    width:60%;
+    background:transparent;
+    border-radius: 20px;;
+}
+.heading{
+    height:25%;
+    width:100%;
+    text-align: center;
+    font-size:3rem;
+    font-weight: bold;
+    color:rgb(7, 7, 7);
+}
+.timing{
+    height:75%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    /* gap: 3rem; */
+}
+.hours{
+    height:100%;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ .minute{
+    height:100%;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.second{
+    height:100%;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.format{
+    margin-top: 2rem;
+    color: rgb(7, 7, 7);
+}
